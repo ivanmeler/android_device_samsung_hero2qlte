@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_heroqlte.mk
+    $(LOCAL_DIR)/lineage_hero2qlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_heroqlte-userdebug
+    lineage_hero2qlte-userdebug

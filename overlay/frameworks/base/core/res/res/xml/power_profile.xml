@@ -115,7 +115,7 @@
     </array>
     <item name="cpu.suspend">5.64</item>
     <item name="cpu.idle">10.45</item>
-    <item name="battery.capacity">3000</item>
+    <item name="battery.capacity">3600</item>
     <array name="wifi.batchedscan">
         <value>.0002</value>
         <value>.002</value>

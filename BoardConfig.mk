@@ -17,17 +17,17 @@
 # inherit from common msm8996-common
 -include device/samsung/msm8996-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/heroqlte
+DEVICE_PATH := device/samsung/hero2qlte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := heroqlte,heroqltechn
+TARGET_OTA_ASSERT_DEVICE := hero2qlte,hero2qltechn
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := heroqlte_defconfig
+TARGET_KERNEL_CONFIG := hero2qlte_defconfig
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
@@ -37,4 +37,4 @@ BOARD_PROVIDES_LIBRIL := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # inherit from the proprietary version
-include vendor/samsung/heroqlte/BoardConfigVendor.mk
+include vendor/samsung/hero2qlte/BoardConfigVendor.mk

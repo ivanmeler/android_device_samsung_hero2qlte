@@ -1,4 +1,4 @@
-# Device Tree for Samsung Galaxy S7 QCOM (heroqlte)
+# Device Tree for Samsung Galaxy S7 Edge QCOM (hero2qlte)
 
 ## Disclaimer
 
@@ -25,8 +25,8 @@
         path="device/samsung/msm8996-common"
         revision="lineage-18.1"
         remote="github" />
-    <project name="ivanmeler/android_device_samsung_heroqlte"
-        path="device/samsung/heroqlte"
+    <project name="ivanmeler/android_device_samsung_hero2qlte"
+        path="device/samsung/hero2qlte"
         revision="lineage-18.1"
         remote="github" />
     <project name="ivanmeler/proprietary_vendor_samsung_msm8996"

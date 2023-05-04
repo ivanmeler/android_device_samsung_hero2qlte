@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=heroqlte
+export DEVICE=hero2qlte
 export DEVICE_COMMON=msm8996-common
 export VENDOR=samsung
 

@@ -15,7 +15,8 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/heroqlte/heroqlte-vendor.mk)
+# for now unified
+$(call inherit-product, vendor/samsung/hero2qlte/hero2qlte-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -23,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    init.heroqlte.rc \
+    init.hero2qlte.rc \
     init.rilchip.rc \
     init.rilcommon.rc \
     init.vendor.rilchip.rc \
