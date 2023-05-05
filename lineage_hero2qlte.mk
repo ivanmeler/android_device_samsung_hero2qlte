@@ -31,12 +31,14 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G9350
 PRODUCT_MANUFACTURER := samsung
 
+PRODUCT_SYSTEM_NAME := hero2qlte
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 # do note actial value is hero2qltechn for device and hero2qltezc for name
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=hero2qlte \
+    TARGET_PRODUCT=hero2qlte \
     PRIVATE_BUILD_DESC="hero2qltezc-user 8.0.0 R16NW G9350ZCS5CTA1 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
